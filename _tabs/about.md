@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 2
 ---
 
 I am a Microbiologist and Data Scientist currently completing my PhD in Molecular Biology at the [University of the Witwatersrand](https://www.wits.ac.za/). My current research focuses on plant microbiomes, specifically extracting microbial DNA and proteins to better understand their roles in plants. My academic background includes biomedicine, biotechnology, and molecular biology. Throughout my academic journey, I've had the privilege to engage in both wet lab benchwork and computational work. I'm proficient in a variety of microbiological techniques, including microbial culture, nucleic acid extraction, protein extraction, Polymerase Chain Reaction (PCR), and agarose and polyacrylamide gel electrophoresis. Concurrently, I've gained experience with large-scale biological data produced through [next-generation sequencing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6528456/) and proteomics data obtained via [Liquid chromatography–mass spectrometry (LC-MS/MS)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2643089/).
