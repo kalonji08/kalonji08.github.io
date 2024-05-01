@@ -21,7 +21,7 @@ Welcome to my very first blog. This has been an idea that I've contemplated for 
 
  Similarly, this is my first blog post, "Hello World", and so begins my journey of becoming a blogger.
 
-My goal with this blog is to document my journey. I will tell you more about myself, but in the meantime, you can read my [About Me page](/_tabs/about.md)
+My goal with this blog is to document my journey. I will tell you more about myself, but in the meantime, you can read my [About Me page](https://kalonji08.github.io/about/)
 
 
 I serendipitously discovered my passion for biology and computers while pursuing my PhD. Finding myself at this intersection is one of the most beautiful things that has happened to me.
