@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kalonji Tshisekedi # the main title
+title: Kalonji A. Tshisekedi # the main title
 
-tagline: Welcome to my site/blog # it will display as the sub-title
+tagline: Molecular biologist, Data scientist # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog, kalonji, data science. bioinformatics, biology
