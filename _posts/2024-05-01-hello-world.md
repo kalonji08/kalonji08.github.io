@@ -7,9 +7,7 @@ tags: [Hello World]
 
 # Hello world
 
-Well, Hello World
-
-Welcome to my very first blog. This has been an idea that I've contemplated for about three years now, but I have finally gathered the courage to put myself out there and share this first message: "Hello World".
+Welcome to my very first blog. This has been an idea that I've contemplated for about three years. I'm glad that I have finally gathered the courage to put myself out there.
 
 "Hello World" is such an iconic sentence, especially in programming because, in most tutorials, it is the first command they make you print, lol.
 
@@ -17,9 +15,7 @@ Welcome to my very first blog. This has been an idea that I've contemplated for 
  print ("Hello world")
  ```
 
- As my instructor would say: " That's it, you have written your first code and started a great journey to becoming a programmer"
-
- Similarly, this is my first blog post, "Hello World", and so begins my journey of becoming a blogger.
+In a similar fashion, this "Hello World" marks the beginning of my blogging journey!
 
 My goal with this blog is to document my journey. I will tell you more about myself, but in the meantime, you can read my [About Me page](https://kalonji08.github.io/about/)
 
