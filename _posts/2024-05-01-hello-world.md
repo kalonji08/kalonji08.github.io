@@ -5,15 +5,23 @@ categories: [Hello World]
 tags: [Hello World]
 ---
 
-# Hello world
+![Blog Banner](/assets/img/blogs/helloWorld-1200x463.jpeg)
+
+# Hello world !
 
 Welcome to my very first blog. This has been an idea that I've contemplated for about three years. I'm glad that I have finally gathered the courage to put myself out there.
 
-"Hello World" is such an iconic sentence, especially in programming because, in most tutorials, it is the first command they make you print, lol.
+The phrase 'Hello World' is quite the iconic statement, particularly in programming, as it is typically the first line of code one is instructed to output.
 
 ``` python
  print ("Hello world")
  ```
+
+![Hello World Meme](https://memecreator.org/static/images/memes/4349871.jpg)
+
+<p align="center">
+  Image credit: <a href="https://www.memecreator.org/">MemeCreator</a>
+</p>
 
 In a similar fashion, this "Hello World" marks the beginning of my blogging journey!
 
