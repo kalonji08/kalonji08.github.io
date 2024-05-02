@@ -32,6 +32,6 @@ I serendipitously discovered my passion for biology and computers while pursuing
 
 I would love to share what I have learned and will continue to learn from both worlds. Additionally, I'll provide wisdom nuggets from books, podcasts, and other blogs I have read. 
 
-I will also share some study tips. Having been a student for the major part of my existence, and now experiencing the other side of it—teaching, lecturing, setting exams, and all those fun stuff for almost half a decade. I would love to share some advice too!
+I will also offer study tips. Having been a student for most of my life, and now having spent nearly five years teaching and lecturing, I'm eager to share my insights.
 
 That's it for now. Looking forward to the journey ahead.
