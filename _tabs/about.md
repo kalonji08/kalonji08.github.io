@@ -72,12 +72,25 @@ Outside of work, I enjoy building computers, taking photos with both film and di
 - **Tutor/Marker** - Eduvos (2018-2019)
 - **Work Integrated Learning Program** - Dischem Pharmacies (2016)
 
+##  Certifications and Training
+
+- **Proteomics concepts and data analysis** - Ubuntu Proteomics Summer School (2023)
+- **Genome resolved metagenomics** - European Bioinformatics Institute  (EMBL-EBI, 2022) 
+- **16s Microbiome intermediate Training** - H3ABioNet(2021)
+- **Linux Course for Life Scientists** - African Centre for Gene Technologies (ACGT, 2020) 
+- **Data science training** -CODATA Research Data Summer School (2020)
+- **Introduction to Bioinformatics course (IBT)** - H3ABioNet (2019)
+
 ## Awards
 
 - **Alex von Holy Prize 2024** – Best PhD student in Microbiology (Wits University)
 - **Best Oral Speaker (2nd Place)** - South African Society of Microbiology
-- **Youth & Anticipation Award 2023** (Geneva Science Diplomacy and Anticipation)
+- **Youth & Anticipation Award 2023** - (Geneva Science Diplomacy and Anticipation)
+- **Most Perspicious Lecturer for 3rd Years 2023** Faculty of Applied science (Eduvos)
+- **Most Perspicious Lecturer for 2nd Years 2023** Faculty of Applied science (Eduvos)
+- **Most Relatable Lecturer for 2nd Years 2023** Faculty of Applied science (Eduvos)
 - **Alex von Holy Prize 2023** - Best PhD student in Microbiology (Wits University)
 - **Best Poster Prize**: Ubuntu Proteomics Summer School 2023
+- **Golden key top achiever** - Wits University
 - **Wits University Postgraduate Merit Award**
 - **National Research Foundation (NRF) Doctoral Scholarship**
