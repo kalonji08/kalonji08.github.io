@@ -26,15 +26,15 @@ The good news is that everyone feels this way, and there is a way to get over it
 To beat Resistance, you must first admit that it exists. In secret, this sneaky enemy does best, but when exposed, they lose power. When you want to put something off, call it what it is and deal with it straight on. "I see you, Resistance, but you won't win today," tell yourself.
 
 **2. Establish a routine:**
-Set up a daily routine that gets you ready for the tasks ahead to fight resistance. Form habits that help you face tasks with determination, no matter what the mood or situation is. For example, start your day at 8 AM or do a review every night.
+Set up a daily routine that gets you ready for the tasks ahead to fight resistance. Form habits that help you face tasks with determination, no matter what the mood is or the situation. For example, start your day at 8 AM or do a review every night.
 
 **3. Embrace challenges:**
-Like a sparring partner in boxing, think of pushback as an important part of your personal growth. Instead of seeing it as something that will get in the way, see it as a chance to grow. Face your problems head-on and see them as chances to get stronger and more tough.
+Like a sparring partner in boxing, think of pushback as an important part of your personal growth. Instead of seeing it as something that will get in the way, see it as a chance to grow. Face your problems head-on and see them as chances to get stronger.
 
 **4. Prioritise delivery:**
-Get over perfectionism's paralysis by putting performance ahead of perfection. Focus on finishing jobs instead of making them better and better all the time. Remember that a project that is finished, flaws and all, is better than a beauty that is not finished. Making it a habit to meet goals and being responsible for getting consistent results is important.
+Get over perfectionism's paralysis by putting performance ahead of perfection. Focus on finishing jobs instead of making them better and better all the time. Remember that a project that is finished, flaws and all, is better than a beautiful one that is unfinished. Making it a habit to meet goals and being responsible for getting consistent results is important.
 
-I hope this was helpful to you. If you're intrigued by the concepts discussed, consider picking up a copy of the book for further inspiration and guidance. Have fun reading, and may your own fights end with resistance!
+I hope this was helpful to you. If you're intrigued by the concepts discussed, consider picking up a copy of the book for further inspiration and guidance. Have fun reading !
 
 
 
