@@ -8,7 +8,7 @@ tags: [Productivity, Motivation, Books, Wisdom]
 <img src="/assets/img/blogs/Resistance.png" alt="Blog Banner" width="1200" height="463">
 
 
-## Too much motivational content and less motivation
+## There is an abundance of motivational content, but not enough motivation.
 
 In today’s content-rich world, finding motivational content is easy. Yet, despite consuming vast amounts of inspiring content, I often find myself procrastinating on projects or ideas. Why does motivation fade so quickly? The answer came from an unexpected place, and it changed how I think about putting things off.
 
