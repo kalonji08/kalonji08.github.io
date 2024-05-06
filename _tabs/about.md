@@ -83,14 +83,14 @@ Outside of work, I enjoy building computers, taking photos with both film and di
 
 ## Awards
 
-- **Alex von Holy Prize 2024** – Best PhD student in Microbiology (Wits University)
+- **Alex von Holy Prize 2024** - Best PhD student in Microbiology (Wits University)
 - **Best Oral Speaker (2nd Place)** - South African Society of Microbiology
 - **Youth & Anticipation Award 2023** - (Geneva Science Diplomacy and Anticipation)
-- **Most Perspicious Lecturer for 3rd Years 2023** Faculty of Applied science (Eduvos)
-- **Most Perspicious Lecturer for 2nd Years 2023** Faculty of Applied science (Eduvos)
-- **Most Relatable Lecturer for 2nd Years 2023** Faculty of Applied science (Eduvos)
+- **Most Perspicious Lecturer for 3rd Years 2023** - Faculty of Applied science (Eduvos)
+- **Most Perspicious Lecturer for 2nd Years 2023** - Faculty of Applied science (Eduvos)
+- **Most Relatable Lecturer for 2nd Years 2023** - Faculty of Applied science (Eduvos)
 - **Alex von Holy Prize 2023** - Best PhD student in Microbiology (Wits University)
-- **Best Poster Prize**: Ubuntu Proteomics Summer School 2023
+- **Best Poster Prize** - Ubuntu Proteomics Summer School 2023
 - **Golden key top achiever** - Wits University
 - **Wits University Postgraduate Merit Award**
 - **National Research Foundation (NRF) Doctoral Scholarship**
