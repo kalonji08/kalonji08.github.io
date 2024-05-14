@@ -5,11 +5,11 @@ order: 3
 ---
 ## Peer-Reviewed Publications
 
+- Tshisekedi KA, De Maayer P, Botes A. Metagenomic sequencing and reconstruction of 82 microbial genomes from barley seed communities. Sci Data. 2024 May 10;11(1):484. [https://doi.org/10.1038/s41597-024-03332-x](https://doi.org/10.1038/s41597-024-03332-x)
+
+- Ijoma GN, Ogola HJO, Pillay P, Tshisekedi KA, Tekere M. Metagenomics datasets of water and sediments from eutrophication-impacted artificial lakes in South Africa. Sci Data. 2024 May 6;11(1):456. [https://doi.org/10.1038/s41597-024-03286-0](https://doi.org/10.1038/s41597-024-03286-0)
+
 - Wingfield, B.D., De Vos, L., Tshisekedi KA, Wilson, A.M., et al. "IMA Genome - F16." *IMA Fungus* 13, 3 (2022). [https://doi.org/10.1186/s43008-022-00089-z](https://doi.org/10.1186/s43008-022-00089-z)
-
-- Tshisekedi KA., De Maayer P, Botes A (2023). "Metagenomic sequencing and reconstruction of 82 microbial genomes from barley seed communities." *Nature Scientific Data.* (Accepted)
-
-- Nkechi GI, Pillay P, Tshisekedi KA, Tekere M (2023). "Shotgun metagenomics of water and sediments from two artificial lakes in the Gauteng Province of South Africa." *Nature Scientific Data.* (Accepted)
 
 ## Plenary Talks
 
