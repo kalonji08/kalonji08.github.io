@@ -32,6 +32,4 @@ In closing, while this advice might not be the panacea you were hoping for, I as
 
 Consider this food for thought: The real journey begins after graduation. So, take the pen and start writing your chapter.
 
-If you found this reflection insightful, remember don’t keep it to yourself.
-
 Until next time, keep learning and growing.
