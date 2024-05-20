@@ -13,7 +13,7 @@ tags: [Productivity, Motivation, Books, Wisdom]
 
 ## Beyond resistance: Embracing the professional within
 
-If my previous blog post didn't convince you to read *The War of Art*, here's another attempt to show you its value. One concept that has helped me overcome resistance is the idea of **Turning Pro**. This concept is explored in the book, but if we think about it, in our work lives, we are all professionals to some extent. For example, whether you feel like it or not, you can't just skip work every day. You've signed a contract; you have responsibilities. While it might seem a bit grim, there's a silver lining here – this is what being a professional is all about.
+If my previous [blog post](https://kalonjilabs.com/posts/Resistance-is-the-enemy/) didn't convince you to read *The War of Art*, here's another attempt to show you its value. One concept that has helped me overcome resistance is the idea of **Turning Pro**. This concept is explored in the book, but if we think about it, in our work lives, we are all professionals to some extent. For example, whether you feel like it or not, you can't just skip work every day. You've signed a contract; you have responsibilities. While it might seem a bit grim, there's a silver lining here – this is what being a professional is all about.
 
 ### Professional vs Amateur
 
