@@ -1,13 +1,16 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 2
+order: 1
 ---
 
+Hi, I’m Kalonji. I work in Molecular Biology, Computational Biology, and Data Science. 
 
-Hi, my name is Kalonji. I am a Researcher (PhD candidate) in Molecular Biology at the [University of the Witwatersrand](https://www.wits.ac.za/) and a Junior Data Scientist at [Fathom Data](https://www.fathomdata.dev/). I have nearly five years of experience in teaching and lecturing at tertiary academic institutions, and developing various academic contents.
+My academic background includes biomedicine, bioinformatics, microbiology and molecular biology. Throughout my academic journey, I've had the privilege to engage in both wet lab benchwork and computational work. 
 
-My current research focuses on plant microbiomes, specifically extracting microbial DNA and proteins to better understand their roles in plants. My academic background includes biomedicine, biotechnology, and molecular biology. Throughout my academic journey, I've had the privilege to engage in both wet lab benchwork and computational work.
+Drawing on my experience, I specialise in analysing complex data to uncover insights and contribute to solving industry challenges.
+
+I have nearly five years of experience in teaching and lecturing at tertiary academic institutions, and developing various academic contents. My present study is focused on plant microbiomes, specifically the extraction of microbial DNA and proteins to better understand their involvement in seed health. 
 
 Outside of work, I enjoy building computers, taking photos with both film and digital cameras, playing musical instruments, and travelling.
 
