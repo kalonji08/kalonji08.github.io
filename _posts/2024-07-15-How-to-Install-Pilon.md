@@ -4,9 +4,6 @@ date: 2024-07-08 08:32:08 +1000
 categories: [Bioinformatics]
 tags: [NGS assembly, genomes, Github]
 ---
-# How to Install Pilon 1.24 on Linux
-
----
 **Pilon** is a bioinformatics software tool used for improving draft genome assemblies. It corrects bases, fixes misassemblies, and fills gaps by aligning sequencing reads to the draft genome. Pilon is particularly useful for refining assemblies from second-generation sequencing technologies like Illumina, making them more accurate and contiguous.
 
 ### Prerequisites
