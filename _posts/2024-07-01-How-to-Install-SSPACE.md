@@ -4,9 +4,6 @@ date: 2024-07-08 08:32:08 +1000
 categories: [Bioinformatics]
 tags: [NGS assembly, genomes, Github]
 ---
-# How to Install SSPACE Basic on Linux: A Step-by-Step Guide
-
----
 SSPACE Basic is a scaffolding tool used in bioinformatics to improve the contiguity of genome assemblies. It links contigs from fragmented genome assemblies using paired-end and mate-pair sequencing data, providing a more complete and accurate genome sequence.
 
 In this tutorial, we will guide you through the process of installing SSPACE Basic on a Linux system.
