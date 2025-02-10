@@ -4,15 +4,11 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-Hi, I’m Kalonji. I work in Molecular Biology, Computational Biology, and Data Science. 
+Hello, I’m Kalonji, and I work at the intersection of Molecular Biology, Computational Biology, and Data Science.
 
-My academic background includes biomedicine, bioinformatics, microbiology and molecular biology. Throughout my academic journey, I've had the privilege to engage in both wet lab benchwork and computational work. 
+My academic background spans biomedicine, bioinformatics, microbiology, and molecular biology, and I have been fortunate to gain experience in both wet-lab experiments and computational research. My mission is to draw insight from data, especially complex datasets. I am always interested in making sense of omics data. I explore how we can use it to tackle inherent biomedical and biotechnological challenges.
 
-Drawing on my experience, I specialise in analysing complex data to uncover insights and contribute to solving industry challenges.
-
-I have nearly five years of experience in teaching and lecturing at tertiary academic institutions, and developing various academic contents. My present study is focused on plant microbiomes, specifically the extraction of microbial DNA and proteins to better understand their involvement in seed health. 
-
-Outside of work, I enjoy building computers, taking photos with both film and digital cameras, playing musical instruments, and travelling.
+Outside of work, I enjoy  capturing images with both film and digital cameras, playing musical instruments, and travelling.
 
 ## My Photo Library
 
@@ -34,9 +30,8 @@ Outside of work, I enjoy building computers, taking photos with both film and di
 
 ## Education
 
-- **Doctor of Philosophy (PhD) in Molecular Biology (Current)** - University of the Witwatersrand
-- **Master of Science in Molecular Biology with Distinction (2021)** – University of the Witwatersrand
-  - *Passed with Distinction*
+- **Doctor of Philosophy (PhD) in Molecular Biology (2024)** - University of the Witwatersrand
+- **Master of Science in Molecular Biology *with Distinction* (2021)** – University of the Witwatersrand
 - **Bachelor of Science Honours in Microbiology and Biotechnology (2018)** – University of the Witwatersrand
 - **Postgraduate Diploma in Scientific Studies (2017)** - University of the Witwatersrand
 - **Bachelor of Science in Biomedicine (2013-2015)** – Eduvos (Previously: Midrand Graduate Institute)
@@ -51,6 +46,7 @@ Outside of work, I enjoy building computers, taking photos with both film and di
 - Programming Skills:
   - **Python** 
   - **R** 
+  - **SQL**
   - **Git** 
   - **Linux** 
   - **Bash scripting** 
@@ -86,6 +82,7 @@ Outside of work, I enjoy building computers, taking photos with both film and di
 
 ## Awards
 
+- **Global Young Scientist Summit 2025** - Selected to present my research
 - **Alex von Holy Prize 2024** - Best PhD student in Microbiology (Wits University)
 - **Best Oral Speaker (2nd Place)** - South African Society of Microbiology
 - **Youth & Anticipation Award 2023** - (Geneva Science Diplomacy and Anticipation)
