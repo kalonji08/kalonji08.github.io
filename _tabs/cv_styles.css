@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.header .name, .header .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.header .contact-info {
+    text-align: right;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #1DAAE1;
+    margin-left: 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px 0;
+    height: 6px;
+}
+
+.skill-bar div {
+    height: 6px;
+    background-color: #1DAAE1;
+    border-radius: 5px;
+}
+
+.skill-advanced div {
+    width: 80%;
+}
+
+.skill-intermediate div {
+    width: 50%;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.skill-list span {
+    background-color: #d9eaf7;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    display: inline-block;
+}
