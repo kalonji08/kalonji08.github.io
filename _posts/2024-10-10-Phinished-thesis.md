@@ -1,6 +1,6 @@
 ---
 title: "A Good PhD is a Finished One"
-date: 2024-09-22 08:33:08 +1000
+date: 2024-10-10 08:53:08 +1000
 categories: [Academic]
 tags: [writing]
 ---
