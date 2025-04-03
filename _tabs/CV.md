@@ -10,10 +10,8 @@ format:
 
 <div class="contact-info">
   <div class="contact-right">
-    📍 Johannesburg, Midrand  
-    ✉️ abondancekalonji08@gmail.com  
-    📞 +27 84 895 09 79 
-    Citizenship 🇨🇩 | Permanent Residency 🇿🇦 
+    📍 Johannesburg 
+    ✉️ kalonji.tshisekedi@gmail.com  
   </div>
 </div>
 
