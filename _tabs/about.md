@@ -3,10 +3,11 @@
 icon: fas fa-info-circle
 order: 1
 ---
+Hello, I'm Kalonji, and I work at the intersection of Molecular Biology, Computational Biology, and Data Science. 
 
-Hello, I’m Kalonji, and I work at the intersection of Molecular Biology, Computational Biology, and Data Science.
+My academic background spans biomedicine, bioinformatics, microbiology, and molecular biology, with experience in both wet-lab experiments and computational research. I have worked on omics across various systems from bacteria to humans, and specialise in multi-omics of microbial communities. Currently, I am focusing on human genetics to inform precision medicine in the future, with particular emphasis on contributing to the underrepresented genetics of African populations. 
 
-My academic background spans biomedicine, bioinformatics, microbiology, and molecular biology, and I have been fortunate to gain experience in both wet-lab experiments and computational research. My mission is to draw insight from data, especially complex datasets. I am always interested in making sense of omics data. I explore how we can use it to tackle inherent biomedical and biotechnological challenges.
+Through developing computational frameworks for population-scale datasets, I aim to contribute insights that could inform targeted therapies and improved patient outcomes. I also apply these computational skills to solve other real-world data-related problems.
 
 Outside of work, I enjoy  capturing images with both film and digital cameras, playing musical instruments, and travelling.
 
@@ -63,16 +64,9 @@ Outside of work, I enjoy  capturing images with both film and digital cameras, p
 - **Restriction Fragment Length Polymorphism (RFLP)**
 - **Microbial Cell Culture**
 
-## Work Experience
-
-- **Junior Data Scientist** – Fathom Data (2024-)
-- **Teaching Assistant** - Faculty of Science, University of the Witwatersrand (2018-)
-- **Lecturer and Module Developer** - Eduvos (2019-2024)
-- **Tutor/Marker** - Eduvos (2018-2019)
-- **Work Integrated Learning Program** - Dischem Pharmacies (2016)
-
 ##  Certifications and Training
 
+- **Prompting Essentials** - Google AI certification (2025)
 - **Proteomics concepts and data analysis** - Ubuntu Proteomics Summer School (2023)
 - **Genome resolved metagenomics** - European Bioinformatics Institute  (EMBL-EBI, 2022) 
 - **16s Microbiome intermediate Training** - H3ABioNet(2021)
