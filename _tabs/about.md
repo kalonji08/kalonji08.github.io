@@ -2,8 +2,8 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
-title: "About — Dr Kalonji Tshisekedi"
-description: "Dr Kalonji A. Tshisekedi (Abondance Kalonji Tshisekedi) is a molecular biologist, computational biologist and data scientist specialising in multi-omics, NGS analysis, and African population genomics."
+title: "About Me"
+description: "Dr Kalonji A. Tshisekedi is a molecular biologist, computational biologist and data scientist specialising in multi-omics, NGS analysis, and African population genomics."
 image: /avatar.jpeg
 ---
 
@@ -47,31 +47,13 @@ image: /avatar.jpeg
 }
 </script>
 
-Hello, I'm **Kalonji** — also known as **Abondance Kalonji Tshisekedi** or **Dr Kalonji Tshisekedi** — and I work at the intersection of Molecular Biology, Computational Biology, and Data Science.
+Hello, I'm **Kalonji**, and I work at the intersection of Molecular Biology, Computational Biology, and Data Science.
 
 My academic background spans biomedicine, bioinformatics, microbiology, and molecular biology, with experience in both wet-lab experiments and computational research. I have worked on omics across various systems from bacteria to humans, and specialise in multi-omics of microbial communities. Currently, I am focusing on human genetics to inform precision medicine in the future, with particular emphasis on contributing to the underrepresented genetics of African populations.
 
 Through developing computational frameworks for population-scale datasets, I aim to contribute insights that could inform targeted therapies and improved patient outcomes. I also apply these computational skills to solve other real-world data-related problems.
 
 Outside of work, I enjoy capturing images with both film and digital cameras, playing musical instruments, and travelling.
-
-## My Photo Library
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1rem; margin: 1.5rem 0;">
-  <div style="width: 28%;">
-    <img src="/assets/img/personal/Serra.jpeg" alt="Serra da Estrela, Portugal" style="width: 100%; border-radius: 8px;">
-    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">On top of a mountain in Serra da Estrela, Portugal.</p>
-  </div>
-  <div style="width: 28%;">
-    <img src="/assets/img/personal/CERN.jpeg" alt="Visit to CERN" style="width: 100%; border-radius: 8px;">
-    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">Visited CERN.</p>
-  </div>
-  <div style="width: 28%;">
-    <img src="/assets/img/personal/Hamburg.jpeg" alt="Conference in Hamburg" style="width: 100%; border-radius: 8px;">
-    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">My first international conference in Hamburg.</p>
-  </div>
-</div>
-
 
 ## Education
 
@@ -124,3 +106,20 @@ Outside of work, I enjoy capturing images with both film and digital cameras, pl
 - **Golden Key Top Achiever** — Wits University
 - **Wits University Postgraduate Merit Award**
 - **National Research Foundation (NRF) Doctoral Scholarship**
+
+## Photo Gallery
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1rem; margin: 1.5rem 0;">
+  <div style="width: 28%;">
+    <img src="/assets/img/personal/Serra.jpeg" alt="Serra da Estrela, Portugal" style="width: 100%; border-radius: 8px;">
+    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">Serra da Estrela, Portugal.</p>
+  </div>
+  <div style="width: 28%;">
+    <img src="/assets/img/personal/CERN.jpeg" alt="Visit to CERN" style="width: 100%; border-radius: 8px;">
+    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">Visited CERN.</p>
+  </div>
+  <div style="width: 28%;">
+    <img src="/assets/img/personal/Hamburg.jpeg" alt="Conference in Hamburg" style="width: 100%; border-radius: 8px;">
+    <p style="font-size: 0.85rem; text-align: center; margin-top: 0.4rem;">First international conference, Hamburg.</p>
+  </div>
+</div>
