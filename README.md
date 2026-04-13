@@ -74,13 +74,25 @@ Live site: [https://kalonji08.github.io](https://kalonji08.github.io)
 
 2. **Install Ruby via Homebrew** (macOS ships with an outdated Ruby):
    ```bash
-   brew install ruby
+   brew install ruby@3.3
    ```
 
 3. **Add Homebrew Ruby to your PATH** (add to `~/.zshrc`):
    ```bash
    echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
    source ~/.zshrc
+
+   # Add Ruby to PATH (Detects Intel or Apple Silicon)
+if [ -d "/opt/homebrew/opt/ruby@3.3/bin" ]; then
+  echo 'export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"' >> ~/.zshrc
+elif [ -d "/usr/local/opt/ruby@3.3/bin" ]; then
+  echo 'export PATH="/usr/local/opt/ruby@3.3/bin:$PATH"' >> ~/.zshrc
+fi
+
+# Add Ruby Gems to PATH
+echo 'export PATH="$(gem env user_dir)/bin:$PATH"' >> ~/.zshrc
+
+source ~/.zshrc
    ```
    > On Intel Macs the path may be `/usr/local/opt/ruby/bin` instead.
 
