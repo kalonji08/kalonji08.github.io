@@ -1,4 +1,18 @@
 ---
-layout: home
-# Index page
+layout: compress
+permalink: /
+sitemap: false
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/about/">
+  <link rel="canonical" href="{{ site.url }}/about/">
+  <title>{{ site.title }}</title>
+  <script>window.location.replace("/about/");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="/about/">About page</a>…</p>
+</body>
+</html>
