@@ -1,0 +1,11 @@
+{% capture favicon_path %}{{ '/assets/img/favicons' | relative_url }}{% endcapture %}
+
+<!-- SVG favicon with KT initials (overrides Chirpy default) -->
+<link rel="icon" type="image/svg+xml" href="{{ favicon_path }}/favicon.svg">
+<link rel="shortcut icon" href="{{ favicon_path }}/favicon.svg">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+<meta name="application-name" content="{{ site.title }}">
+<meta name="theme-color" content="#1e1e2e">
+{% if site.pwa.enabled %}
+  <link rel="manifest" href="{{ favicon_path }}/site.webmanifest">
+{% endif %}

@@ -1,114 +1,291 @@
-# Chirpy Starter
+# Kalonji's Blog — kalonji08.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+A personal blog by **Kalonji A. Tshisekedi** (molecular biologist & data scientist), built with [Jekyll](https://jekyllrb.com/) and the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) theme, deployed automatically to GitHub Pages.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_data`, `_layouts`, `_includes`, `_sass`, and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+Live site: [https://kalonji08.github.io](https://kalonji08.github.io)
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+---
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+## Table of Contents
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+1. [Prerequisites](#prerequisites)
+2. [Installation](#installation)
+   - [Linux (Ubuntu/Debian)](#linux-ubuntudebian)
+   - [macOS](#macos)
+   - [Windows](#windows)
+3. [Run the site locally](#run-the-site-locally)
+4. [Branch workflow: dev → PR → main](#branch-workflow-dev--pr--main)
+5. [How to add a blog post](#how-to-add-a-blog-post)
+6. [How to add or update a page](#how-to-add-or-update-a-page)
+7. [How to add or update a project](#how-to-add-or-update-a-project)
+8. [Troubleshooting](#troubleshooting)
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+---
 
 ## Prerequisites
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+| Tool    | Purpose                        |
+|---------|-------------------------------|
+| Git     | Version control                |
+| Ruby    | Jekyll runs on Ruby            |
+| Bundler | Manages Ruby gem dependencies  |
+| Jekyll  | Static site generator          |
+
+---
 
 ## Installation
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+### Linux (Ubuntu/Debian)
 
-Then clone it to your local machine and run:
+1. **Install system dependencies:**
+   ```bash
+   sudo apt-get update
+   sudo apt-get install -y ruby-full build-essential zlib1g-dev git
+   ```
 
-```console
-$ bundle
-```
+2. **Configure RubyGems to install in your home directory:**
+   ```bash
+   echo '# Ruby Gems' >> ~/.bashrc
+   echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+   echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+   source ~/.bashrc
+   ```
 
-## Usage
+3. **Install Jekyll and Bundler:**
+   ```bash
+   gem install jekyll bundler
+   ```
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+4. **Clone the repo and install dependencies:**
+   ```bash
+   git clone https://github.com/kalonji08/kalonji08.github.io.git
+   cd kalonji08.github.io
+   bundle install
+   ```
 
-## License
+---
 
-This work is published under [MIT][mit] License.
+### macOS
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+1. **Install Homebrew** (if not already installed):
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
 
-## To run this locally use the following:
+2. **Install Ruby via Homebrew** (macOS ships with an outdated Ruby):
+   ```bash
+   brew install ruby
+   ```
+
+3. **Add Homebrew Ruby to your PATH** (add to `~/.zshrc`):
+   ```bash
+   echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+   source ~/.zshrc
+   ```
+   > On Intel Macs the path may be `/usr/local/opt/ruby/bin` instead.
+
+4. **Install Jekyll, Bundler, clone, and install:**
+   ```bash
+   gem install jekyll bundler
+   git clone https://github.com/kalonji08/kalonji08.github.io.git
+   cd kalonji08.github.io
+   bundle install
+   ```
+
+---
+
+### Windows
+
+1. Download and run the latest **Ruby+Devkit** installer from [rubyinstaller.org](https://rubyinstaller.org/downloads/). Check "Add Ruby executables to your PATH" and run `ridk install` (choose option 3) at the end.
+
+2. Open a new PowerShell and run:
+   ```powershell
+   gem install jekyll bundler
+   git clone https://github.com/kalonji08/kalonji08.github.io.git
+   cd kalonji08.github.io
+   bundle install
+   ```
+
+---
+
+## Run the site locally
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
-## Detailed Setup Instructions for a New Machine
+Open [http://localhost:4000](http://localhost:4000). The site auto-refreshes when you save a file.
 
-### 1. Install Ruby and Other Prerequisites
-Install Ruby and other necessary packages:
+---
+
+## Branch workflow: dev → PR → main
+
+All changes go through `dev` first. Merging to `main` triggers automatic deployment to GitHub Pages.
+
 ```bash
-sudo apt-get install ruby-full build-essential zlib1g-dev
+# 1. Switch to dev and sync it with main
+git checkout dev
+git pull origin dev
+
+# 2. Make your changes (new post, page edit, project update, etc.)
+
+# 3. Commit and push to dev
+git add <files>
+git commit -m "describe your change"
+git push origin dev
+
+# 4. Open a Pull Request on GitHub: dev → main
+#    GitHub Actions will build and deploy automatically on merge.
 ```
 
-### 2. Set Up RubyGems Environment
-Avoid installing RubyGems packages as the root user. Set up a gem installation directory for your user account:
-```bash
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+> **Never commit directly to `main`.**
+
+---
+
+## How to add a blog post
+
+1. Switch to `dev` and sync (see workflow above).
+
+2. Create a new file in `_posts/` using this exact naming format:
+   ```
+   _posts/YYYY-MM-DD-your-post-title.md
+   ```
+   Example: `_posts/2026-04-13-intro-to-metagenomics.md`
+
+3. Add the required frontmatter at the top:
+   ```markdown
+   ---
+   title: "Your Post Title"
+   date: 2026-04-13 09:00:00 +0200
+   categories: [Category]
+   tags: [tag1, tag2, tag3]
+   ---
+
+   Your post content in Markdown goes here.
+   ```
+
+   **Frontmatter fields:**
+
+   | Field        | Required | Notes                                              |
+   |--------------|----------|----------------------------------------------------|
+   | `title`      | Yes      | Shown as the post heading and in the post list     |
+   | `date`       | Yes      | Must match the filename date. Use `+0200` for SAST |
+   | `categories` | Yes      | 1–2 broad topics e.g. `[Bioinformatics, Tutorial]` |
+   | `tags`       | No       | More specific labels e.g. `[Python, NGS, Linux]`   |
+   | `image`      | No       | Add a preview image: `image: /assets/img/blogs/my-image.png` |
+   | `pin`        | No       | Set `pin: true` to pin the post to the top         |
+
+4. Preview locally with `bundle exec jekyll serve --livereload`.
+
+5. Commit, push to `dev`, and open a PR to `main`.
+
+---
+
+## How to add or update a page
+
+The site has several fixed pages (tabs) in `_tabs/`. Each is a Markdown file.
+
+### Update an existing page
+
+| Page        | File                  |
+|-------------|-----------------------|
+| About Me    | `_tabs/about.md`      |
+| Projects    | `_tabs/projects.md`   |
+| Photography | `_tabs/photography.md`|
+| Archives    | `_tabs/archives.md`   |
+
+Just edit the relevant file and commit on `dev`.
+
+### Add a new page
+
+1. Create a new file in `_tabs/`:
+   ```
+   _tabs/my-new-page.md
+   ```
+
+2. Add frontmatter:
+   ```markdown
+   ---
+   layout: page
+   icon: fas fa-star          # any Font Awesome icon
+   order: 5                   # controls sidebar position (lower = higher up)
+   title: "My New Page"
+   ---
+
+   Page content in Markdown.
+   ```
+
+3. The page will automatically appear in the sidebar navigation.
+
+### Update the About page
+
+Edit `_tabs/about.md`. Key sections: bio paragraph, Education, Skills, Certifications, Awards, Photo Gallery.
+
+---
+
+## How to add or update a project
+
+Projects live in `_tabs/projects.md` as HTML card blocks inside the grid.
+
+### Add a new project
+
+Copy and paste this block inside the `<div class="proj-grid">` in `_tabs/projects.md`:
+
+```html
+<div class="proj-card">
+  <div class="proj-meta"><span>YEAR</span><span>Stack · Language</span></div>
+  <a class="proj-title" href="https://github.com/kalonji08/your-repo" target="_blank" rel="noopener">Project Name</a>
+  <p class="proj-desc">One or two sentences describing what the project does and why it matters.</p>
+  <div class="proj-tags">
+    <a class="proj-tag" href="https://github.com/kalonji08/your-repo" target="_blank" rel="noopener">Repo</a>
+    <a class="proj-tag" href="https://your-demo-url.com" target="_blank" rel="noopener">Demo</a>
+    <a class="proj-tag" href="/posts/your-blog-post/" >Article</a>
+  </div>
+</div>
 ```
 
-### 3. Install Git
-Install Git if it’s not already installed:
-```bash
-sudo apt-get install git
-```
+**Fields to fill in:**
 
-### 4. Clone the Repository
-Clone your GitHub repository to your local machine:
-```bash
-git clone https://github.com/USERNAME/USERNAME.github.io.git
-cd USERNAME.github.io
-```
+| Field           | What to put                                              |
+|-----------------|----------------------------------------------------------|
+| `YEAR`          | Year the project was started or published                |
+| `Stack · Language` | e.g. `Python · Nextflow` or `R · Shiny`             |
+| `href` on title | GitHub repo URL or project homepage                      |
+| `Project Name`  | Short, clear name                                        |
+| `proj-desc`     | 1–2 sentence description                                 |
+| Tag buttons     | Include only the ones that apply: Repo / Demo / Article  |
 
-### 5. Install Jekyll and Bundler
-Install Jekyll and Bundler gems:
-```bash
-gem install jekyll bundler
-```
+### Update an existing project
 
-### 6. Install Project Dependencies
-Install the dependencies specified in the `Gemfile`:
-```bash
-bundle install
-```
+Find the relevant `<div class="proj-card">` block in `_tabs/projects.md` and edit the text or links directly.
 
-### Troubleshoot
-If you get trouble installing the correct verion consiider updating your Gemfile like this:
+### Remove a project
 
-```
+Delete the entire `<div class="proj-card"> ... </div>` block for that project.
+
+---
+
+## Troubleshooting
+
+### `bundle install` fails with permission errors
+Make sure you've set up your gem home directory as described in the installation steps. Never use `sudo gem install`.
+
+### Wrong Ruby version
+Check with `ruby -v`. Jekyll 4.x requires Ruby >= 2.7. Use `rbenv` or `rvm` to manage versions.
+
+### Gemfile version conflicts
+```ruby
 source "https://rubygems.org"
-
 gem "jekyll", "~> 4.3.0"
 gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.5"
 ```
+Then run `bundle update`.
 
-### 7. Serve Your Site Locally
-Run the following command to serve your site locally:
-```bash
-bundle exec jekyll serve
-```
+### Windows: `wdm` gem errors
+Make sure you ran `ridk install` with option 3 (MSYS2 and MINGW) during Ruby setup.
 
-This will start a local server at `http://localhost:4000`, where you can view your site.
+---
+
+## License
+
+Published under the [MIT License](LICENSE).
