@@ -7,8 +7,8 @@ description: "Research software, pipelines, and tools by Dr Kalonji A. Tshiseked
 ---
 
 <p style="margin-bottom: 2rem; font-size: 1rem; opacity: 0.8; max-width: 600px;">
-  A collection of research software, pipelines, and data science tools I've built
-  across bioinformatics, omics, and applied machine learning.
+  A collection of projects spanning bioinformatics, cloud computing, and data science.
+  More coming soon.
 </p>
 
 <style>
@@ -70,107 +70,36 @@ description: "Research software, pipelines, and tools by Dr Kalonji A. Tshiseked
 
 <div class="proj-grid">
 
-  <!-- 1 -->
   <div class="proj-card">
-    <div class="proj-meta"><span>2024</span><span>Genomics · Python</span></div>
-    <a class="proj-title" href="#">AfriVariant</a>
-    <p class="proj-desc">End-to-end variant calling and annotation pipeline optimised for African genomic cohorts, with population-stratified filtering.</p>
+    <div class="proj-meta"><span>2024</span><span>Quarto · R</span></div>
+    <a class="proj-title" href="https://github.com/kalonji08/BigBookofR-Quarto.github.io" target="_blank" rel="noopener">BigBookofR — Quarto Edition</a>
+    <p class="proj-desc">A Quarto-powered interactive reference site compiling the Big Book of R — a curated collection of free R programming resources for data science and statistics.</p>
     <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Article</a>
+      <a class="proj-tag" href="https://github.com/kalonji08/BigBookofR-Quarto.github.io" target="_blank" rel="noopener">Repo</a>
     </div>
   </div>
 
-  <!-- 2 -->
   <div class="proj-card">
-    <div class="proj-meta"><span>2024</span><span>Multi-omics · R</span></div>
-    <a class="proj-title" href="#">OmicsWeave</a>
-    <p class="proj-desc">R package for integrating transcriptomics, proteomics, and metabolomics data using factor analysis and network-based approaches.</p>
+    <div class="proj-meta"><span>2024</span><span>Cloud · AWS</span></div>
+    <a class="proj-title" href="https://github.com/kalonji08/AWS-Certified-Cloud-Practitioner-Notes" target="_blank" rel="noopener">AWS Cloud Practitioner Notes</a>
+    <p class="proj-desc">Concise study notes and practice exam questions for the AWS Certified Cloud Practitioner (CLF-C02) exam. Covers core services, pricing, security, and architecture.</p>
     <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Demo</a>
+      <a class="proj-tag" href="https://github.com/kalonji08/AWS-Certified-Cloud-Practitioner-Notes" target="_blank" rel="noopener">Repo</a>
     </div>
   </div>
 
-  <!-- 3 -->
   <div class="proj-card">
-    <div class="proj-meta"><span>2023</span><span>NGS · Nextflow</span></div>
-    <a class="proj-title" href="#">ngs-qc-flow</a>
-    <p class="proj-desc">Nextflow pipeline for automated quality control, adapter trimming, and alignment reporting across short-read sequencing datasets.</p>
+    <div class="proj-meta"><span>2024</span><span>SQL · PostgreSQL</span></div>
+    <a class="proj-title" href="https://github.com/kalonji08/dvd-rental-postgresql-tutorial" target="_blank" rel="noopener">DVD Rental PostgreSQL Tutorial</a>
+    <p class="proj-desc">Hands-on SQL tutorial using the classic DVD rental database. Covers queries, joins, aggregations, window functions, and database design concepts in PostgreSQL.</p>
     <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-    </div>
-  </div>
-
-  <!-- 4 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2023</span><span>Proteomics · Python</span></div>
-    <a class="proj-title" href="#">LCMSparse</a>
-    <p class="proj-desc">Python toolkit for parsing, normalising, and visualising LC-MS/MS MaxQuant output, with statistical differential expression modules.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Article</a>
-    </div>
-  </div>
-
-  <!-- 5 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2023</span><span>Microbiome · R</span></div>
-    <a class="proj-title" href="#">MicroVizR</a>
-    <p class="proj-desc">Interactive Shiny dashboard for visualising 16S and metagenomic community composition, diversity metrics, and differential abundance.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Demo</a>
-    </div>
-  </div>
-
-  <!-- 6 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2022</span><span>ML · Python · scikit-learn</span></div>
-    <a class="proj-title" href="#">BiomarkerML</a>
-    <p class="proj-desc">Machine learning framework for biomarker discovery from high-dimensional omics data — feature selection, model comparison, and SHAP interpretation.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Article</a>
-      <a class="proj-tag" href="#">Demo</a>
-    </div>
-  </div>
-
-  <!-- 7 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2022</span><span>Metagenomics · Bash</span></div>
-    <a class="proj-title" href="#">metaMAG-wf</a>
-    <p class="proj-desc">Reproducible workflow for genome-resolved metagenomics — binning, bin refinement, quality assessment, and taxonomic classification of MAGs.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-    </div>
-  </div>
-
-  <!-- 8 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2021</span><span>Data Science · SQL · Python</span></div>
-    <a class="proj-title" href="#">BioDataExplorer</a>
-    <p class="proj-desc">SQL-driven exploration and reporting toolkit for relational biological databases, with Pandas and Plotly visualisation layers.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="#">Repo</a>
-      <a class="proj-tag" href="#">Demo</a>
-    </div>
-  </div>
-
-  <!-- 9 -->
-  <div class="proj-card">
-    <div class="proj-meta"><span>2021</span><span>Assembly · Bash</span></div>
-    <a class="proj-title" href="#">scaffold-polish</a>
-    <p class="proj-desc">Documented workflow for de novo genome scaffolding with SSPACE and iterative polishing with Pilon — see the accompanying blog series.</p>
-    <div class="proj-tags">
-      <a class="proj-tag" href="/categories/bioinformatics/">Article</a>
-      <a class="proj-tag" href="#">Repo</a>
+      <a class="proj-tag" href="https://github.com/kalonji08/dvd-rental-postgresql-tutorial" target="_blank" rel="noopener">Repo</a>
     </div>
   </div>
 
 </div>
 
 <p style="margin-top: 2.5rem; font-size: 0.88rem; opacity: 0.6;">
-  Links marked <strong>Repo</strong> will point to GitHub once repositories are made public.
-  Want to collaborate? <a href="mailto:kalonji.tshisekedi@gmail.com">Get in touch.</a>
+  More projects in progress. Want to collaborate?
+  <a href="mailto:kalonji.tshisekedi@gmail.com">Get in touch.</a>
 </p>
