@@ -19,3 +19,7 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+
+#claude
+.claude/
