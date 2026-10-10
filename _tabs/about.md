@@ -13,8 +13,8 @@ image: /avatar.jpeg
   "@type": "Person",
   "name": "Kalonji A. Tshisekedi",
   "alternateName": ["Abondance Kalonji", "Abondance Kalonji Tshisekedi", "Dr Kalonji Tshisekedi", "Dr Abondance Kalonji", "Dr Abondance Kalonji Tshisekedi", "Dr Kalonji A. Tshisekedi"],
-  "url": "https://kalonji08.github.io/about/",
-  "image": "https://kalonji08.github.io/avatar.jpeg",
+  "url": "https://kalonjilabs.com/about/",
+  "image": "https://kalonjilabs.com/avatar.jpeg",
   "jobTitle": "Molecular Biologist & Data Scientist",
   "description": "Molecular biologist, computational biologist and data scientist specialising in multi-omics, NGS, LC-MS/MS, and African population genomics.",
   "alumniOf": [
