@@ -56,6 +56,24 @@ const absoluteImage = new URL(image, Astro.site).href;
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+  {type !== 'article' && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dr. Kalonji A. Tshisekedi",
+      "alternateName": ["Kalonji Tshisekedi", "Kalonji A. Tshisekedi"],
+      "url": Astro.site?.href,
+      "image": absoluteImage,
+      "jobTitle": "Genomicist & Computational Biologist",
+      "description": "Genomicist, computational biologist and data scientist specialising in population genomics, multi-omics, precision health, and African genetics.",
+      "sameAs": [
+        "https://github.com/kalonji08",
+        "https://www.linkedin.com/in/dr-kalonji-a-tshisekedi-ph-d-2a339b76/",
+        "https://twitter.com/kalonji_08"
+      ],
+    })} />
+  )}
+
   {type === 'article' && (
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
