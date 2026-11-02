@@ -506,6 +506,46 @@ img { max-width: 100%; height: auto; display: block; }
   border-color: var(--color-text-light);
 }
 
+/* ===== SHARE BAR ===== */
+.share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0 0;
+  max-width: calc(var(--content-width) + 2 * var(--gutter));
+  margin: 0 auto;
+}
+
+.share-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  color: var(--color-text-light);
+  background: none;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  font-size: 0;
+}
+
+.share-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  opacity: 1;
+}
+
 /* ===== TAG CLOUD ===== */
 .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
 .tag-cloud a {
