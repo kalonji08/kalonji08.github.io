@@ -1,0 +1,113 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog'))
+  .filter(p => !p.data.hidden)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+---
+
+<Base>
+  <!-- HERO: avatar + text side by side -->
+  <section class="hero">
+    <img src="/img/profileKalonji.jpg" alt="Dr. Kalonji A. Tshisekedi" class="hero-avatar">
+    <div class="hero-content">
+      <h1 class="hero-tagline">I decode genomes to improve lives.</h1>
+      <p class="hero-subtitle">
+        <em>Genomicist</em> and Data Scientist. PhD in Molecular Biology.
+      </p>
+    </div>
+  </section>
+
+  <!-- PULL QUOTE -->
+  <section class="pull-quote">
+    <blockquote>
+      "The future of precision medicine depends on understanding every population's genome — not just a few."
+    </blockquote>
+  </section>
+
+  <!-- ABOUT SPLIT: Graduation photo + mission text -->
+  <div class="split">
+    <div class="split-img">
+      <img src="/img/1733819122585.jpg" alt="Dr. Kalonji A. Tshisekedi — PhD graduation">
+    </div>
+    <div class="split-text">
+      <h2>Bridging genomics and health equity.</h2>
+      <p>
+        African genomes are the most genetically diverse on the planet — yet they remain massively underrepresented in the data that drives drug development and treatment decisions.
+      </p>
+      <p>
+        My work combines <strong>population genomics, multi-omics integration, and data science</strong> to start closing that gap. I build computational frameworks that turn population-scale genetic data into insights that could inform targeted therapies and better health outcomes.
+      </p>
+      <a href="/about" class="split-link">More about me &rarr;</a>
+    </div>
+  </div>
+
+  <!-- RESEARCH -->
+  <div class="section-alt">
+    <section class="section">
+      <h2 class="section-title">Research Focus</h2>
+      <div class="research-grid">
+        <a href="/research" class="research-card">
+          <h3>Population Genomics</h3>
+          <p>Characterising genetic diversity in African populations to fill critical gaps in global genomic databases and drive equitable precision medicine.</p>
+        </a>
+        <a href="/research" class="research-card">
+          <h3>Multi-Omics Integration</h3>
+          <p>Combining genomics, proteomics, and metagenomics data to build richer biological models — from microbial communities to human disease.</p>
+        </a>
+        <a href="/research" class="research-card">
+          <h3>Health Data Science</h3>
+          <p>Developing computational pipelines and applying machine learning to large-scale biological datasets for translational health research.</p>
+        </a>
+      </div>
+      <div class="cta-row">
+        <a href="/research" class="cta cta-primary">Explore My Research</a>
+        <a href="/projects" class="cta cta-secondary">View Projects</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- SPEAKING SPLIT: GYSS photo + text -->
+  <div class="split">
+    <div class="split-text">
+      <h2>Sharing science that matters.</h2>
+      <p>
+        I've presented at the <strong>Global Young Scientist Summit</strong> in Singapore, earned the <strong>Alex von Holy Prize</strong> twice for best PhD student in Microbiology, and my students at Eduvos voted me the most perspicuous and most relatable lecturer — which I consider the highest possible compliment.
+      </p>
+      <a href="/about" class="split-link">View credentials &rarr;</a>
+    </div>
+    <div class="split-img">
+      <img src="/img/1736819231826.jpg" alt="Dr. Kalonji presenting at GYSS Singapore">
+    </div>
+  </div>
+
+  <!-- LAB IMAGE BREAK -->
+  <div class="img-break">
+    <img src="/img/1500x500.jpg" alt="Dr. Kalonji working in the lab">
+  </div>
+
+  <!-- RECENT WRITING -->
+  <section class="section">
+    <h2 class="section-title">Recent Writing</h2>
+    <div style="max-width: 840px; margin: 0 auto;">
+      <ul class="post-list">
+        {posts.map(post => (
+          <li class="post-item">
+            <a href={`/blog/${post.id}`}>
+              <h3 class="post-item-title">{post.data.title}</h3>
+              <span class="post-item-meta">
+                {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                {post.data.categories?.length ? ` · ${post.data.categories.join(', ')}` : ''}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div class="cta-row">
+        <a href="/blog" class="cta cta-secondary">All Posts &rarr;</a>
+      </div>
+    </div>
+  </section>
+</Base>

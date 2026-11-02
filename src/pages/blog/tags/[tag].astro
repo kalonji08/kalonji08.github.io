@@ -1,0 +1,59 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const tagMap = new Map<string, typeof posts>();
+
+  for (const post of posts) {
+    for (const tag of post.data.tags ?? []) {
+      const slug = tag.toLowerCase().replace(/\s+/g, '-');
+      if (!tagMap.has(slug)) tagMap.set(slug, []);
+      tagMap.get(slug)!.push(post);
+    }
+  }
+
+  return [...tagMap.entries()].map(([slug, tagPosts]) => ({
+    params: { tag: slug },
+    props: {
+      tag: (tagPosts[0].data.tags ?? []).find(
+        (t: string) => t.toLowerCase().replace(/\s+/g, '-') === slug
+      ) ?? slug,
+      posts: tagPosts
+        .filter(p => !p.data.hidden)
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    },
+  }));
+}
+
+const { tag, posts } = Astro.props;
+---
+
+<Base
+  title={`${tag} — Blog`}
+  description={`Posts tagged "${tag}" — Dr. Kalonji A. Tshisekedi`}
+>
+  <div class="section" style="padding-top: 4vw;">
+    <div class="section-narrow">
+      <h1>{tag}</h1>
+      <p class="page-subtitle">{posts.length} post{posts.length !== 1 ? 's' : ''} tagged "{tag}"</p>
+      <ul class="post-list">
+        {posts.map(post => (
+          <li class="post-item">
+            <a href={`/blog/${post.id}`}>
+              <h3 class="post-item-title">{post.data.title}</h3>
+              <span class="post-item-meta">
+                {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                {post.data.categories?.length ? ` · ${post.data.categories.join(', ')}` : ''}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div class="cta-row" style="margin-top: 2rem;">
+        <a href="/blog" class="cta cta-secondary">&larr; All posts</a>
+      </div>
+    </div>
+  </div>
+</Base>
