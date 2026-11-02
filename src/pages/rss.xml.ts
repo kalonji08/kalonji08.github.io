@@ -3,7 +3,13 @@ import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
-  const posts = await getCollection('blog');
+  const site = context.site?.href ?? 'https://kalonjilabs.com/';
+  let posts;
+  try {
+    posts = await getCollection('blog');
+  } catch {
+    posts = [];
+  }
   const sorted = posts
     .filter(p => !p.data.hidden)
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -11,7 +17,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: 'Dr. Kalonji A. Tshisekedi',
     description: 'Genomics, computational biology, and reflections on life — from the desk of Dr. Kalonji A. Tshisekedi.',
-    site: context.site!.href,
+    site,
     items: sorted.map(post => ({
       title: post.data.title,
       pubDate: post.data.date,
